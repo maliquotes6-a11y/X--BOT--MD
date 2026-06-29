@@ -1095,7 +1095,7 @@ case 'alive': {
     const content = `*⊹₊⟡⋆ ⋮ Ａｂｏｕｔ ᶻ 𝗓 𐰁 .ᐟ*\n` +
                     `➜ This is a lightweight, stable WhatsApp bot designed to run 24/7. It is allowing users and group admins to fine-tune the bot’s behavior.\n\n` +
                     `*⊹₊⟡⋆ ⋮ Ｄｅｐｌｏｙ ᶻ 𝗓 𐰁 .ᐟ*\n` +
-                    `➜ *Website:* https://akira.gotukolaya.site`;
+                    `➜ *Website:* https://x-bot-md-production-9f8f.up.railway.app`;
     const footer = '> *𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆*';
 
     await socket.sendMessage(sender, {
@@ -2051,8 +2051,8 @@ case 'fancytext': {
 // ════════════ OWNER ════════════
 
                 case 'owner': {
-    const ownerNum = '+94707447414';
-    const ownerName = 'お 𝐂𝐡𝐚𝐦𝐨𝐝 ࣪𖤐.ᐟ';
+    const ownerNum = '+94763353368';
+    const ownerName = 'お 𝗜ꜱᴀɴᴋᴀ ࣪𖤐.ᐟ';
     
     await socket.sendMessage(sender, { react: { text: '🥷', key: msg.key } });
 
@@ -2067,7 +2067,7 @@ case 'fancytext': {
     });
 
     await socket.sendMessage(sender, {
-        text: `*↳ ❝ [🎀 𝗔𝗸𝗶𝗿𝗮 𝗚𝗶𝗿𝗹 𝗢𝘄𝗻𝗲𝗿 🎀] ¡! ❞*\n\n₊❏❜ ⋮👤 Name: ${ownerName}\n₊❏❜ ⋮ 📞 Number: ${ownerNum}\n\n> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*`,
+        text: `*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝘆𝗮 𝗚𝗶𝗿𝗹 𝗢𝘄𝗻𝗲𝗿 🎀] ¡! ❞*\n\n₊❏❜ ⋮👤 Name: ${ownerName}\n₊❏❜ ⋮ 📞 Number: ${ownerNum}\n\n> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*`,
         contextInfo: {
             mentionedJid: [`${ownerNum.slice(1)}@s.whatsapp.net`]
         }
