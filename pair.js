@@ -2019,7 +2019,7 @@ case 'fancytext': {
         });
         
         styledMsg += `*┗━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┛*\n\n`;
-        styledMsg += `> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*`;
+        styledMsg += `> *𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆*`;
 
         await socket.sendMessage(sender, { 
             image: { url: akira }, 
@@ -2138,7 +2138,7 @@ case 'hack': {
             '```[########] 80%``` ⏳',
             '```[##########] 100%``` ✅',
             '🔒 *𝐒ystem 𝐁reach: 𝐒uccessful!* 🔓',
-            '*🎀 𝐀kira 𝐇acking 𝐒uccessful 🎭*',
+            '*🎀 𝗜ꜱᴀɴᴋᴀ 𝐇acking 𝐒uccessful 🎭*',
         ];
 
         await socket.sendMessage(from, { react: { text: '💀', key: msg.key } });
