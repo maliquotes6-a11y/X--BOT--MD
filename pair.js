@@ -62,7 +62,7 @@ const config = {
     PREFIX: '.',
     MAX_RETRIES: 3,
     ADMIN_LIST_PATH: './admin.json',
-    AKIRA_IMG: 'https://i.ibb.co/FZjptLY/tourl-1779693358137.jpg',
+    AKIRA_IMG: 'https://files.catbox.moe/ooq3ln.jpg',
     NEWSLETTER_JID: '120363419619460838@newsletter',
     NEWSLETTER_LIST: [
         '120363425584831057@newsletter',
@@ -71,7 +71,7 @@ const config = {
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     OWNER_NUMBER: '94763353368',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vad1KZ0DjiOZdqaVKm2V'
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb69K9665yDEFt3DRR0D'
 };
 
 const replyFq = (text) => reply(text);
