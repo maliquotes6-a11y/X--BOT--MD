@@ -1311,7 +1311,7 @@ case 'tiktok':
 case 'tt': {
     try {
         const query = args.join(' ');
-        if (!query) return reply("🔗 *Send me a tiktok link !*");
+        if (!query) return reply("🔗 *කරුණාකර ඔබේ tiktok videoහි ලින්ක් එක අප හට ලබා දෙන්න!*");
         
         if (!query.includes('tiktok.com')) {
             return reply("❌ *This is not valid tiktok link !*");
