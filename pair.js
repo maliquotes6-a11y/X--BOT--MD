@@ -930,8 +930,8 @@ const arabianCtxGlobal = {
 };
 
   // ── Arabian mystery header ──────────────────────────────────────────────────
-  const ARABIAN_TITLE = '🦋 ₊˚ ⊹ 𝐀 𝐊 𝐈 𝐑 𝐀  𝐌 𝐃 ⊹ ˚₊ 𝜗𝜚';
-  const ARABIAN_SUB   = '𝐀𝐞𝐬𝐭𝐡𝐚𝐭𝐢𝐜 𝐁𝐨𝐭 𝐐𝐮𝐞𝐞𝐧 💘';
+  const ARABIAN_TITLE = '🦋 ₊˚ ⊹ 𝐊 𝐀 𝐃 𝐈 𝐘 𝐀  𝐌 𝐃 ⊹ ˚₊ 𝜗𝜚';
+  const ARABIAN_SUB   = '𝐨𝐰𝐧𝐞𝐫 : 𝐢𝐬𝐚𝐧𝐤𝐚 💘';
 
   const arabianCtx = () => ({
     forwardingScore: 999,
@@ -986,7 +986,7 @@ const downloadQuotedMedia = async (quoted) => {
 
       await socket.sendMessage(sender, {
         image: { url: akira },
-        caption: `*↳ ❝ [🎀 𝗔𝗸𝗶𝗿𝗮 𝗚𝗶𝗿𝗹 𝗠𝗲𝗻𝘂 🎀] ¡! ❞*
+        caption: `*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝘆𝗮 𝗚𝗶𝗿𝗹 𝗠𝗲𝗻𝘂 🎀] ¡! ❞*
 
 ┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓
 ┃👤 *𝚄𝚂𝙴𝚁* : ${pushname}
@@ -1068,13 +1068,13 @@ ${readMore}
 
       await socket.sendMessage(sender, {
         image: { url: akira },
-        caption: `*↳ ❝ [🎀 𝗔𝗸𝗶𝗿𝗮 𝗚𝗶𝗿𝗹 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*\n\n` +
+        caption: `*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝘆𝗮 𝗚𝗶𝗿𝗹 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*\n\n` +
              `┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓\n` +
                  `┃₊❏❜ ⋮🏓 𝙿𝙾𝙽𝙶 : _pong!_\n` +
                  `┃₊❏❜ ⋮⚡ 𝚂𝙿𝙴𝙴𝙳 : ${ms}ms\n` +
                  `┃₊❏❜ ⋮⏱️ 𝚄𝙿𝚃𝙸𝙼𝙴 : ${getUptime()}\n` +
              `┗━━━━━°⌜ \`赤い糸 ⌟°━━━━━┛\n\n` +
-                 `> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*`,
+                 `> *𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆*`,
         contextInfo: arabianCtx()
       }, { quoted: msg });
 
@@ -1091,12 +1091,12 @@ case 'alive': {
     const minutes = Math.floor((uptime % 3600) / 60);
     const seconds = Math.floor(uptime % 60);
 
-    const title = '*↳ ❝ [🎀 𝗔𝗸𝗶𝗿𝗮 𝗚𝗶𝗿𝗹 𝗔𝗹𝗶𝘃𝗲 🎀] ¡! ❞*';
+    const title = '*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝘆𝗮 𝗚𝗶𝗿𝗹 𝗔𝗹𝗶𝘃𝗲 🎀] ¡! ❞*';
     const content = `*⊹₊⟡⋆ ⋮ Ａｂｏｕｔ ᶻ 𝗓 𐰁 .ᐟ*\n` +
                     `➜ This is a lightweight, stable WhatsApp bot designed to run 24/7. It is allowing users and group admins to fine-tune the bot’s behavior.\n\n` +
                     `*⊹₊⟡⋆ ⋮ Ｄｅｐｌｏｙ ᶻ 𝗓 𐰁 .ᐟ*\n` +
                     `➜ *Website:* https://akira.gotukolaya.site`;
-    const footer = '> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*';
+    const footer = '> *𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆*';
 
     await socket.sendMessage(sender, {
         image: { url: akira },
@@ -1130,7 +1130,7 @@ case 'alive': {
                       `┃ *📅 𝙳𝙰𝚃𝙴:* ${slDate}\n` +
                       `┃ *⌚ 𝚃𝙸𝙼𝙴:* ${slTimeNow}\n` +
               `┗━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┛\n\n` +
-                      `> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*`;
+                      `> *𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆*`;
 
       await socket.sendMessage(sender, {
         image: { url: akira },
@@ -1159,14 +1159,14 @@ case 'ytmp3': {
         const slDate = moment().tz('Asia/Colombo').format('YYYY-MM-DD');
         const slTimeNow = moment().tz('Asia/Colombo').format('HH:mm:ss');
 
-        const caption = `*↳ ❝ [🎀 𝗔𝗸𝗶𝗿𝗮 𝗚𝗶𝗿𝗹 𝗩𝗶𝗱𝗲𝗼 🎀] ¡! ❞*\n\n` +
+        const caption = `*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝘆𝗮 𝗚𝗶𝗿𝗹 𝗩𝗶𝗱𝗲𝗼 🎀] ¡! ❞*\n\n` +
                         `> *\`🎵 𝚃𝙸𝚃𝙻𝙴 :\`* ${video.title}\n` +
                         `> *\`👤 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 :\`* ${video.author.name}\n` +
                         `> *\`⏱️ 𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽 :\`* ${video.timestamp}\n` +
                         `> *\`👀 𝚅𝙸𝙴𝚆𝚂 :\`* ${video.views.toLocaleString()}\n` +
                         `> *\`📅 𝙳𝙰𝚃𝙴 :\`* ${slDate}\n` +
                         `> *\`⌚ 𝚃𝙸𝙼𝙴 :\`* ${slTimeNow}\n\n` +
-                        `> *𝗔esthatic 𝗤ueen 𝗕y 𝗖hamod 𝜗𝜚⋆*`;
+                        `> *𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆*`;
 
         await socket.sendMessage(sender, {
             image: { url: video.thumbnail },
